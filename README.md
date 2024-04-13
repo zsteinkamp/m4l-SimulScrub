@@ -2,7 +2,7 @@
 
 SimulScrub is a Max for Live device that plays a number of contiguous time segments of an audio file simultaneously, with a flexible crossfader control to select which segment(s) you want to hear.
 
-![How it Looks](images/device.gif)
+[![How it Looks](images/device.gif)](https://www.youtube.com/watch?v=574H1rq7Tkg)
 
 This allows you to scrub through time of a longer sample, while always playing the sample at 1x speed. 🤯
 
