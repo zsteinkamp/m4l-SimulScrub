@@ -8,8 +8,6 @@ This allows you to scrub through time of a longer sample, while always playing t
 
 In the screen capture above, the yellow lines represent virtual "playheads" playing from your sample at that position. The blue bars coming in from the left represent the volume that the respective playhead will actually play. The position is controlled via slider to the left, with control over the width of the pickup pattern.
 
-I created this plugin after using my [Chiastic Slide](https://github.com/zsteinkamp/m4l-ChiasticSlide) plugin to do this job using an instrument rack with N chains, each containing a Simpler device playing its own slide of a larger audio file. Setting that up was a fairly involved process and cumbersome to operate to keep N Simplers in sync, parameter-wise (even using "Copy to (n) siblings").
-
 SimulScrub has a simple drag and drop workflow. Just drag an audio sample or file to the main plugin area and play any MIDI note to start playing. Automate or modulate the `Position` slider and `Width` knob. See how different numbers of slices (up to 32) changes things.
 
 ## Installation
@@ -24,11 +22,17 @@ SimulScrub has a simple drag and drop workflow. Just drag an audio sample or fil
 
 Add this device to a MIDI track, then drag an audio clip or file to the main plugin area.
 
-Select the number of slices with the `Divisions` knob.
+Send any MIDI note to the device. Hold the note.
+
+Select the number of slices with the `Divisions` knob. You will need to re-press the MIDI note when changing the number of divisions (bug noted below).
 
 Select which slice you are hearing with the `Position` slider.
 
 Control how many adjacent slices are also heard with the `Width` knob.
+
+## Background
+
+I created this plugin after using my [Chiastic Slide](https://github.com/zsteinkamp/m4l-ChiasticSlide) plugin to do this job using an instrument rack with N chains, each containing a Simpler device playing its own slide of a larger audio file. Setting that up was a fairly involved process and cumbersome to operate to keep N Simplers in sync, parameter-wise (even using "Copy to (n) siblings").
 
 ## TODO
 
