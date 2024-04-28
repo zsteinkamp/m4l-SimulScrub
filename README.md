@@ -6,7 +6,7 @@ SimulScrub is a Max for Live device that plays a number of contiguous time segme
 
 This allows you to scrub through time of a longer sample, while always playing the sample at 1x speed. 🤯
 
-In the screen capture above, the yellow lines represent virtual "playheads" playing from your sample at that position. The blue bars coming in from the left represent the volume that the respective playhead will actually play. The position is controlled via slider to the left, with control over the width of the pickup pattern.
+In the screen capture above, the yellow lines represent virtual "playheads" playing from your sample at that position. The blue bars coming in from the bottom represent the volume that the respective playhead will actually play. The position is controlled via slider below the main display, with control over the width of the pickup pattern.
 
 SimulScrub has a simple drag and drop workflow. Just drag an audio sample or file to the main plugin area and play any MIDI note to start playing. Automate or modulate the `Position` slider and `Width` knob. See how different numbers of slices (up to 32) changes things.
 
