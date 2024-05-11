@@ -6,7 +6,11 @@ SimulScrub is a Max for Live device that plays a number of contiguous time segme
 
 This allows you to scrub through time of a longer sample, while always playing the sample at 1x speed. 🤯
 
-#### [View a demo on YouTube](https://www.youtube.com/watch?v=zng2J0UxUZA)
+#### [Overview on YouTube](https://www.youtube.com/watch?v=IJnHLf-5Wnw)
+
+#### [In a mix](https://www.youtube.com/watch?v=zng2J0UxUZA)
+
+#### [With the Amen Break](https://www.youtube.com/watch?v=LjSMfL88lOk)
 
 In the screen capture above, the yellow lines represent virtual "playheads" playing from your sample at that position. The blue bars coming in from the bottom represent the volume that the respective playhead will actually play. The position is controlled via slider below the main display, with control over the width of the pickup pattern.
 
@@ -40,9 +44,8 @@ I created this plugin after using my [Chiastic Slide](https://github.com/zsteink
 
 ## TODO
 
-* Slice by ms, measures
-* Reverse toggle
-* Gracefully handle changing Divisions - currently have to restart the note; should be seamless
+- Slice by ms, measures
+- Gracefully handle changing Divisions - currently have to restart the note; should be seamless
 
 ## Contributing
 
