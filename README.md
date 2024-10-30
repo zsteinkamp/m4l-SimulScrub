@@ -22,6 +22,7 @@ SimulScrub has a simple drag and drop workflow. Just drag an audio sample or fil
 
 ## Changelog
 
+- 2024-10-29 [v5](https://github.com/zsteinkamp/m4l-SimulScrub/releases/download/v5/SimulScrub-v5.amxd) - Add non-blocking telemetry ping on load. Does not send any identifying information, only the plugin name, the local computer name, type of computer, and CPU type. I just want to see which plugins are used the most.
 - 2024-05-06 [v4](https://github.com/zsteinkamp/m4l-SimulScrub/releases/download/v4/SimulScrub-v4.amxd) - Fix clicks and pops; separate pich and fade times; fix many bugs.
 - 2024-04-27 [v2](https://github.com/zsteinkamp/m4l-SimulScrub/releases/download/v2/SimulScrub-v2.amxd) - Fix looping; Add stop/start effect control; fix reverse bug.
 - 2024-04-13 [v1](https://github.com/zsteinkamp/m4l-SimulScrub/releases/download/v1/SimulScrub-v1.amxd) - Initial Release.
