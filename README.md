@@ -21,6 +21,10 @@ SimulScrub has a simple drag and drop workflow. Just drag an audio sample or fil
 
 [Download the newest release](https://github.com/zsteinkamp/m4l-SimulScrub/releases) or clone this repository, and drag the `SimulScrub.amxd` device into a track in Ableton Live.
 
+## VST3 / AU Version
+
+A native VST3 / AU plugin version (macOS + Windows) lives in its own repo: [zsteinkamp/juce-SimulScrub](https://github.com/zsteinkamp/juce-SimulScrub).
+
 ## Changelog
 
 - 2024-10-01 [v6](https://github.com/zsteinkamp/m4l-SimulScrub/releases/download/v6/SimulScrub-v6.amxd) - Version update checker; Better help experience.
